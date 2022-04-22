@@ -1,0 +1,6 @@
+teleport-cd: 3
+allow-move: false
+tprequest-timeout: 120
+command:
+  back:
+    enable: true

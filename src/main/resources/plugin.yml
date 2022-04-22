@@ -1,0 +1,16 @@
+name: KrFamily_KrTeleport
+version: '${project.version}'
+main: krmcplugins.kokored.website.krfamily_krteleport.KrTeleport
+api-version: 1.18
+authors: [ Koko_red7214 ]
+depend:
+  - KrFamily_KrCore
+libraries:
+  - krmcplugins.kokored.website:KrFamily_KrCore:1.0.1
+
+commands:
+  back:
+    permission: krfamily.krteleport.commands.back
+  tpa:
+    permission: krfamily.krteleport.commands.tpask
+    aliases: tpask
